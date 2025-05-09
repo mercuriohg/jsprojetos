@@ -4,7 +4,7 @@ Olá! Este repositório vai servir basicamente como ensino básico e avançado d
 
 | Repositórios | Projetos|
 |-------------|--------------| 
-| <a href="https://github.com/mercuriohg/AulasGustavoGuanabara">/Html5&Css3</a>     | <a href="">/Portfólio</a>|
+| <a href="https://github.com/mercuriohg/AulasGustavoGuanabara">/Html5&Css3</a>     | <a href="https://mercuriohg.github.io/projetoportfolio/">/Portfólio</a>|
 | <a href="https://github.com/mercuriohg/Python2023">/Python</a>     | <a href="">/WineDegust</a>|
 | <a href="">/JavaScript</a> | <a href= "">/Android</a>
 
