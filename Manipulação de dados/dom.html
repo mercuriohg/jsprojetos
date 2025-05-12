@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando o DOM</title>
+</head>
+<style>
+    body{
+        background-color: rgb(10, 131, 206);
+        color: white;
+        font:normal 18pt Arial;
+    }
+</style>
+
+<body>
+    <h1>Utilizando o DOM para Teste</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo o <strong>DOM</strong> em JavaScript</p>
+    <div id="sla">Clique em mim</div>
+
+    <script>
+        var corpo = document.body 
+        var p1 = document.getElementsByTagName('p')[0] // Esse colchete indica qual tag pegar (se tiver mais de uma parecida), sempre inicia no 0
+        var dado = window.document.getElementById('sla')
+        dado.style.background = 'green'
+        document.getElementById('sla').innerText = 'Olá mundo'
+    </script>
+</body>
+
+</html>
