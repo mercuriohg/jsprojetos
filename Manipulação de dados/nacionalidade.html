@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+   <h1>Visto Brasileiro</h1>
+    A sua nacionalidade é <input type="text" name="nacionalidade" id="nacionalidade"> 
+   <input type="button" value="Verificar"  onclick="verificar()">
+   <div id="res"></div>
+   <script>
+    function verificar(){
+      let nac = document.querySelector('input#nacionalidade').value
+      let res = document.querySelector('div#res')
+      res.innerHTML = `<p>Sua nacionalidade é ${nac}</p>`
+      if (nac != 'brasileiro' && nac != 'brasileira'){
+        res.innerHTML += '<p>Você não tem direito ao visto brasileiro</p>'
+      }else{
+        res.innerHTML += '<p>Você tem direito ao visto brasileiro(a)</p>'
+      }
+    }
+   </script>
+</body>
+</html>
