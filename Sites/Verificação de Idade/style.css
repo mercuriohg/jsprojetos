@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(169, 96, 236);
+}
+section{
+    background-color: rgb(228, 118, 118);
+    width: 400px;
+    height: 520px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 10px black;
+}
+.genero{
+    margin: 20px;
+    padding: 8px;
+}
+#idadenum{
+    border-color: transparent;
+    border-radius: 6px;
+    padding: 2px;
+    margin: 8px auto;
+}
+input{
+    text-align: center;
+}
+.botao{
+   padding: 5px;
+   border-radius: 5px;
+   border-color: transparent;
+   background-color: rgb(127, 127, 241);
+   color: paleturquoise;
+}
+div{
+    padding: 8px;
+}
