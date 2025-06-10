@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="estilo">
+         <input type="text" id="texto" readonly>
+         <input type="button" id="txt1" class="number" onclick="clicar('1')" value="1">
+         <input type="button" id="txt2" class="number" onclick="clicar('2')" value="2">
+         <input type="button" id="txt3" class="number" onclick="clicar('3')" value="3">
+         <input type="button" id="somar" class="number" onclick="clicar('+')" value="+">
+         <br>
+         <input type="button" id="txt4" class="number" onclick="clicar('4')" value="4">
+         <input type="button" id="txt5" class="number" onclick="clicar('5')" value="5">
+         <input type="button" id="txt6" class="number" onclick="clicar('6')" value="6">
+         <input type="button" id="diminuir" class="number" onclick="clicar('-')" value="-">
+         <br>
+         <input type="button" id="txt7" class="number" onclick="clicar('7')" value="7">
+         <input type="button" id="txt8" class="number" onclick="clicar('8')" value="8">
+         <input type="button" id="txt9" class="number" onclick="clicar('9')" value="9">
+         <input type="button" id="multi" class="number" onclick="clicar('*')" value="*">
+         <br>
+         <input type="button" id="txt0" class="number" onclick="clicar('0')" value="0">
+         <input type="button" id="dividir" class="number" onclick="clicar('/')" value="/">
+         <input type="button" id="igual" class="number" onclick="mostrarResultado()" value="=">
+         <input type="button" id="delete" class="number" onclick="Delete()" value="AC">
+
+
+
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
